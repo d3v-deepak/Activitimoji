@@ -1,0 +1,61 @@
+:root {
+  --primary-color: rgb(26, 62, 99);
+}
+
+.navigation {
+  /* width: 100%; */
+  background-color: var(--primary-color);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-heading {
+  font-size: 3rem;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+.stock-type {
+  margin-top: 2rem;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+.stock-type li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+.stock-type li:hover {
+  background-color: rgb(81, 81, 206);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.stock-list {
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: left;
+}
+
+input {
+  margin-top: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+.meaning-div {
+  padding-top: 2rem;
+  text-align: center;
+}
